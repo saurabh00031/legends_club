@@ -74,7 +74,7 @@ app.use('/users',users);
 
 
 //giving the port number 
-var port=9090;
+var port=9090 || "https://legendsclub-production.up.railway.app";
 app.listen(port,function(){
     console.log('server listening on ' +port  );
 })
