@@ -74,7 +74,7 @@ app.use('/users',users);
 
 
 //giving the port number 
-var port = process.env.PORT || 9090
+var port = process.env.PORT || 3000
 app.listen(port,function(){
     console.log('server listening on ' +port  );
 })
