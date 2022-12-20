@@ -46,7 +46,7 @@ router.get('/taskviewer', async function(req,res)
 {
     var loggedIn=(req.isAuthenticated()) ? true :false;
     console.log("..............")
-    console.log(res.locals.username)
+    //console.log(res.locals.username)
     res.render('taskviewer',{title:'Task & activities',loggedIn:loggedIn,username: res.locals.username })
 });
 

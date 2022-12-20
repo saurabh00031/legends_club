@@ -130,7 +130,7 @@
     "ms": "^2.1.2",
     "mpath": "^0.8.4",
     "nan": "^2.13.2",
-    "node": "^12.13.0",
+    "node": "^16.15.0",
     "mongoose-legacy-pluralize": "^1.0.2",
     "negotiator": "^0.6.3",
     "needle": "^2.4.0",
